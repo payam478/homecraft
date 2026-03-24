@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:homecraft/app/screens/loginscreen.dart';
-
+import 'package:homecraft/app/screens/professsionals_description_screen.dart';
 
 void main(){
-  runApp(HomeCraft());
+  runApp(const HomeCraft());
 }
 class HomeCraft extends StatelessWidget {
   const HomeCraft({super.key});
@@ -13,7 +12,7 @@ class HomeCraft extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'HomeCraft',
-      home: LoginScreen(),
+      home: ProfessionalsDescriptionScreen(),
     );
   }
 }
